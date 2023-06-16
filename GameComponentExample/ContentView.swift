@@ -6,16 +6,27 @@
 //
 
 import SwiftUI
+import SpriteKit
 
 struct ContentView: View {
+    
+    var gameScene = GameScene()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            GeometryReader { geo in
+                SpriteView(scene: {
+                    gameScene.size =  CGSize(
+                        width: geo.frame(in: .global).width,
+                        height: geo.frame(in: .global).height
+                    )
+                    return gameScene
+                }())
+            }
         }
-        .padding()
+
+        
+        
     }
 }
 
@@ -24,3 +35,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

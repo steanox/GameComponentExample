@@ -11,6 +11,16 @@
 		7D4BD64A2A39C18F00E5C36B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD6492A39C18F00E5C36B /* ContentView.swift */; };
 		7D4BD64C2A39C19100E5C36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4BD64B2A39C19100E5C36B /* Assets.xcassets */; };
 		7D4BD64F2A39C19100E5C36B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4BD64E2A39C19100E5C36B /* Preview Assets.xcassets */; };
+		7D4BD6562A39C24800E5C36B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD6552A39C24800E5C36B /* GameScene.swift */; };
+		7D4BD6592A39C7F500E5C36B /* CharacterVisualComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD6582A39C7F500E5C36B /* CharacterVisualComponent.swift */; };
+		7D4BD65B2A39CC3200E5C36B /* ControlComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD65A2A39CC3200E5C36B /* ControlComponent.swift */; };
+		7D4BD65D2A3ACFE000E5C36B /* ShootComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD65C2A3ACFE000E5C36B /* ShootComponent.swift */; };
+		7D4BD65F2A3AD02100E5C36B /* PhysicsBodyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD65E2A3AD02100E5C36B /* PhysicsBodyComponent.swift */; };
+		7D4BD6612A3AFFC700E5C36B /* EnemyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD6602A3AFFC700E5C36B /* EnemyComponent.swift */; };
+		7D4BD6632A3B06B100E5C36B /* DestroyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD6622A3B06B100E5C36B /* DestroyComponent.swift */; };
+		7D4BD6652A3BF86500E5C36B /* HealthComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD6642A3BF86500E5C36B /* HealthComponent.swift */; };
+		7D4BD66A2A3BF9D400E5C36B /* MainPlayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD6692A3BF9D400E5C36B /* MainPlayerComponent.swift */; };
+		7D4BD66D2A3BFD8B00E5C36B /* NodesName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD66C2A3BFD8B00E5C36B /* NodesName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		7D4BD6492A39C18F00E5C36B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D4BD64B2A39C19100E5C36B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D4BD64E2A39C19100E5C36B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D4BD6552A39C24800E5C36B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7D4BD6582A39C7F500E5C36B /* CharacterVisualComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterVisualComponent.swift; sourceTree = "<group>"; };
+		7D4BD65A2A39CC3200E5C36B /* ControlComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlComponent.swift; sourceTree = "<group>"; };
+		7D4BD65C2A3ACFE000E5C36B /* ShootComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootComponent.swift; sourceTree = "<group>"; };
+		7D4BD65E2A3AD02100E5C36B /* PhysicsBodyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsBodyComponent.swift; sourceTree = "<group>"; };
+		7D4BD6602A3AFFC700E5C36B /* EnemyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyComponent.swift; sourceTree = "<group>"; };
+		7D4BD6622A3B06B100E5C36B /* DestroyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestroyComponent.swift; sourceTree = "<group>"; };
+		7D4BD6642A3BF86500E5C36B /* HealthComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthComponent.swift; sourceTree = "<group>"; };
+		7D4BD6692A3BF9D400E5C36B /* MainPlayerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPlayerComponent.swift; sourceTree = "<group>"; };
+		7D4BD66C2A3BFD8B00E5C36B /* NodesName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,9 @@
 			children = (
 				7D4BD6472A39C18F00E5C36B /* GameComponentExampleApp.swift */,
 				7D4BD6492A39C18F00E5C36B /* ContentView.swift */,
+				7D4BD66B2A3BFD7800E5C36B /* Config */,
+				7D4BD6662A3BF88F00E5C36B /* Game Scenes */,
+				7D4BD6572A39C7E100E5C36B /* Components */,
 				7D4BD64B2A39C19100E5C36B /* Assets.xcassets */,
 				7D4BD64D2A39C19100E5C36B /* Preview Content */,
 			);
@@ -65,6 +88,53 @@
 				7D4BD64E2A39C19100E5C36B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D4BD6572A39C7E100E5C36B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BD6582A39C7F500E5C36B /* CharacterVisualComponent.swift */,
+				7D4BD65A2A39CC3200E5C36B /* ControlComponent.swift */,
+				7D4BD65C2A3ACFE000E5C36B /* ShootComponent.swift */,
+				7D4BD6602A3AFFC700E5C36B /* EnemyComponent.swift */,
+				7D4BD65E2A3AD02100E5C36B /* PhysicsBodyComponent.swift */,
+				7D4BD6622A3B06B100E5C36B /* DestroyComponent.swift */,
+				7D4BD6642A3BF86500E5C36B /* HealthComponent.swift */,
+				7D4BD6692A3BF9D400E5C36B /* MainPlayerComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7D4BD6662A3BF88F00E5C36B /* Game Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BD6672A3BF89F00E5C36B /* GamePlay Scene */,
+			);
+			path = "Game Scenes";
+			sourceTree = "<group>";
+		};
+		7D4BD6672A3BF89F00E5C36B /* GamePlay Scene */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BD6682A3BF95200E5C36B /* Entities */,
+				7D4BD6552A39C24800E5C36B /* GameScene.swift */,
+			);
+			path = "GamePlay Scene";
+			sourceTree = "<group>";
+		};
+		7D4BD6682A3BF95200E5C36B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		7D4BD66B2A3BFD7800E5C36B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BD66C2A3BFD8B00E5C36B /* NodesName.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +207,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4BD6612A3AFFC700E5C36B /* EnemyComponent.swift in Sources */,
+				7D4BD6562A39C24800E5C36B /* GameScene.swift in Sources */,
 				7D4BD64A2A39C18F00E5C36B /* ContentView.swift in Sources */,
+				7D4BD6652A3BF86500E5C36B /* HealthComponent.swift in Sources */,
+				7D4BD6592A39C7F500E5C36B /* CharacterVisualComponent.swift in Sources */,
+				7D4BD6632A3B06B100E5C36B /* DestroyComponent.swift in Sources */,
 				7D4BD6482A39C18F00E5C36B /* GameComponentExampleApp.swift in Sources */,
+				7D4BD66A2A3BF9D400E5C36B /* MainPlayerComponent.swift in Sources */,
+				7D4BD66D2A3BFD8B00E5C36B /* NodesName.swift in Sources */,
+				7D4BD65F2A3AD02100E5C36B /* PhysicsBodyComponent.swift in Sources */,
+				7D4BD65B2A39CC3200E5C36B /* ControlComponent.swift in Sources */,
+				7D4BD65D2A3ACFE000E5C36B /* ShootComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
