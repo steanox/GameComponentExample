@@ -10,7 +10,7 @@ import GameplayKit
 import SpriteKit
 
 
-class ControlComponent: GKComponent{
+class ControlComponent: GKAgent2D,GKAgentDelegate{
     
     enum MovementType{
         case up,down,left,right
@@ -21,6 +21,15 @@ class ControlComponent: GKComponent{
     }
     
     var isDraggingActive = false
+    
+    override init() {
+        super.init()
+        self.delegate = self
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     public func setupDrag(at point: CGPoint){
         let nodes = self.mainPlayerComponent?.playerNode.scene?.nodes(at: point)
@@ -38,5 +47,10 @@ class ControlComponent: GKComponent{
     
     public func stop(){
         isDraggingActive = false
+    }
+    override func update(deltaTime seconds: TimeInterval) {
+        self.position = vector_float2(
+            x: Float((mainPlayerComponent?.playerNode.position.x)!),
+            y: Float((mainPlayerComponent?.playerNode.position.y)!))
     }
 }

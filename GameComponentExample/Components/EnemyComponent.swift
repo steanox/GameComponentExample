@@ -8,10 +8,17 @@
 import Foundation
 import GameplayKit
 
-class EnemyComponent: GKComponent{
+class EnemyComponent: GKSKNodeComponent{
     
-    var characterComponent: CharacterVisualComponent? {
-        return entity?.component(ofType: CharacterVisualComponent.self)
+    
+    
+    
+    override init(node: SKNode) {
+        super.init(node: node)
+        self.node.name = NodesName.enemyCharacter
     }
     
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }

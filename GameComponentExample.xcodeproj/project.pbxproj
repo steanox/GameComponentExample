@@ -21,6 +21,7 @@
 		7D4BD6652A3BF86500E5C36B /* HealthComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD6642A3BF86500E5C36B /* HealthComponent.swift */; };
 		7D4BD66A2A3BF9D400E5C36B /* MainPlayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD6692A3BF9D400E5C36B /* MainPlayerComponent.swift */; };
 		7D4BD66D2A3BFD8B00E5C36B /* NodesName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD66C2A3BFD8B00E5C36B /* NodesName.swift */; };
+		7D4BD6C12A41B62300E5C36B /* EnemyAimingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4BD6C02A41B62300E5C36B /* EnemyAimingComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		7D4BD6642A3BF86500E5C36B /* HealthComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthComponent.swift; sourceTree = "<group>"; };
 		7D4BD6692A3BF9D400E5C36B /* MainPlayerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPlayerComponent.swift; sourceTree = "<group>"; };
 		7D4BD66C2A3BFD8B00E5C36B /* NodesName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesName.swift; sourceTree = "<group>"; };
+		7D4BD6C02A41B62300E5C36B /* EnemyAimingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyAimingComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				7D4BD65A2A39CC3200E5C36B /* ControlComponent.swift */,
 				7D4BD65C2A3ACFE000E5C36B /* ShootComponent.swift */,
 				7D4BD6602A3AFFC700E5C36B /* EnemyComponent.swift */,
+				7D4BD6C02A41B62300E5C36B /* EnemyAimingComponent.swift */,
 				7D4BD65E2A3AD02100E5C36B /* PhysicsBodyComponent.swift */,
 				7D4BD6622A3B06B100E5C36B /* DestroyComponent.swift */,
 				7D4BD6642A3BF86500E5C36B /* HealthComponent.swift */,
@@ -207,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4BD6C12A41B62300E5C36B /* EnemyAimingComponent.swift in Sources */,
 				7D4BD6612A3AFFC700E5C36B /* EnemyComponent.swift in Sources */,
 				7D4BD6562A39C24800E5C36B /* GameScene.swift in Sources */,
 				7D4BD64A2A39C18F00E5C36B /* ContentView.swift in Sources */,

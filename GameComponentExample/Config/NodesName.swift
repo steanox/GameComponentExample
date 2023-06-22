@@ -10,4 +10,5 @@ import Foundation
 
 struct NodesName{
     static var mainCharacter = "MainCharacter"
+    static var enemyCharacter = "EnemyCharacter"
 }

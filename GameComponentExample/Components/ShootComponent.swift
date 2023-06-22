@@ -25,7 +25,7 @@ class ShootComponent: GKComponent{
         rectShooter.fillColor = .red
         rectShooter.position = characterComponent?.playerNode.position ?? .init(x: 0, y: 0)
         
-        guard let enemyYposition = targetComponent?.characterComponent?.playerNode.position.y else { return  }
+        guard let enemyYposition = targetComponent?.enemyNode.position.y else { return  }
         
         let scene = characterComponent?.playerNode.scene
         
